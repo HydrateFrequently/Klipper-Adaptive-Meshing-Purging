@@ -60,15 +60,16 @@
 
 ## Requirements:
 
-1. You will need `[exclude_object]` defined in `printer.cfg`.
-
-2. You will also need to make sure the following is defined in `moonraker.conf`:
+1. You will also need to make sure the following is defined in `moonraker.conf`:
   
     ```yaml
     [file_manager]
     enable_object_processing: True
 
     ```
+
+2. You will need `[exclude_object]` defined in `printer.cfg`.
+
 3. Finally, you will need to make sure your slicer is labeling objects:
 
 <p align="center">
